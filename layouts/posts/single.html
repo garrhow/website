@@ -1,0 +1,8 @@
+{{ define "main" }}
+	<h1>{{ .Title }} <small>({{ .Date.Format "January 2, 2006" }})</small></h1>
+	{{ if .Params.tableOfContents }}
+		{{ .TableOfContents }}
+		<hr />
+	{{ end }}
+	{{ .Content }}
+{{ end }}

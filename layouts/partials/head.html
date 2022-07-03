@@ -1,0 +1,8 @@
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+<meta charset="utf-8">
+<meta name="author" content="{{ .Site.Params.authorName }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Title }}</title>

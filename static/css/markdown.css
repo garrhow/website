@@ -1,0 +1,142 @@
+.markdown-body {
+	line-height: 1.5;
+	padding: 1em 0 !important;
+	word-wrap: break-word;
+}
+
+.markdown-body>*:first-child {
+	margin-top: 0 !important;
+}
+
+.markdown-body p, main blockquote, main ul, main ol, main dl, main table, main pre, main details {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+/* Blockquotes */
+.markdown-body blockquote {
+	border-left: 0.25em solid var(--color-border-muted);
+	color: var(--color-fg-muted);
+	margin: 0;
+	padding: 0 1em;
+}
+
+.markdown-body blockquote code, .markdown-body blockquote pre {
+	background-color: var(--color-border-muted);
+}
+
+/* Header text */
+.markdown-body h1, main h2, main h3, main h4, main h5, main h6 {
+	font-weight: 600;
+	line-height: 1.25;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+.markdown-body h1 {
+	border-bottom: 1px solid var(--color-border-muted);
+	font-size: 2em;
+	padding-bottom: 0.3em;
+}
+
+.markdown-body h2 {
+	border-bottom: 1px solid var(--color-border-muted);
+	font-size: 1.5em;
+	padding-bottom: 0.3em;
+}
+
+.markdown-body h3 {
+	font-size: 1.25em;
+}
+
+/* Horizontal line */
+.markdown-body hr {
+	background-color: var(--color-border-muted);
+	border: none;
+	height: 0.25em;
+	margin: 1.5em 0;
+	padding: 0;
+}
+
+/* Inline code */
+.markdown-body code {
+	background-color: var(--color-canvas);
+	border-radius: 0.4em;
+	font-size: 0.9em;
+	margin: 0;
+	overflow: hidden;
+	padding: 0.2em 0.4em;
+}
+
+/* Code blocks*/
+
+.markdown-body pre {
+	background-color: var(--color-canvas);
+	border-radius: 0.4em;
+	display: block;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding: 1em;
+}
+
+.markdown-body pre code {
+	background-color: transparent;
+	border-radius: 0em;
+	padding: 0em;
+}
+
+/* Images */
+.markdown-body img {
+	display: block;
+	width: 100%;
+}
+
+/* Lists */
+
+.markdown-body ul li+li {
+	margin-top: 0.25em;
+}
+
+.markdown-body ul ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.markdown-body ul {
+	padding-left: 2em;
+}
+
+/* Tables */
+.markdown-body table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	display: block;
+	max-width: 100%;
+	overflow: auto;
+	width: max-content;
+}
+
+.markdown-body table thead {
+	/* border-color: inherit; */
+	/* display: table-header-group; */
+	/* vertical-align: middle; */
+}
+
+.markdown-body table tr {
+	border-top: 1px solid var(--color-border);
+}
+
+.markdown-body table th {
+	border: 1px solid var(--color-border);
+	font-weight: 600;
+	padding: 0.5em 1em;
+}
+
+.markdown-body table td {
+	border: 1px solid var(--color-border);
+	padding: 0.5em 1em;
+}
+
+.markdown-body table tr:nth-child(2n) {
+	background-color: var(--color-canvas-muted);
+}

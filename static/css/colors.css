@@ -1,0 +1,30 @@
+:root {
+	color-scheme: dark;
+	--color-bg: rgb(59, 66, 82);
+	--color-bg-darker: rgb(46, 52, 64);
+	--color-border: rgb(46, 52, 64);
+	--color-border-muted: rgb(46, 52, 64, 0.5);
+	--color-canvas: rgb(46, 52, 64);
+	--color-canvas-muted: rgb(46, 52, 64, 0.5);
+	--color-fg: rgb(216, 222, 233);
+	--color-fg-muted: rgb(216, 222, 233, 0.5);
+	--color-fg-shadow: rgb(216, 222, 233, 0.25);
+	--color-link: rgb(136, 192, 208);
+}
+
+/* Experimental light theme */
+/* @media (prefers-color-scheme: light) {
+	:root {
+		color-scheme: light;
+		--color-bg: rgb(236, 239, 244);
+		--color-bg-darker: rgb(216, 222, 233);
+		--color-border: rgb(216, 222, 233);
+		--color-border-muted: rgb(216, 222, 233, 0.5);
+		--color-canvas: rgb(216, 222, 233);
+		--color-canvas-muted: rgb(216, 222, 233, 0.5);
+		--color-fg: rgb(46, 52, 64);
+		--color-fg-muted: rgb(46, 52, 64, 0.5);
+		--color-fg-shadow: transparent;
+		--color-link: rgb(94, 129, 172);
+	}
+} */

@@ -1,0 +1,3 @@
+{{ $title := .Title }}
+{{ if .Section }} {{ $title = title .Section }} {{ end }}
+<h1 class="title">{{ $title }}</h1>

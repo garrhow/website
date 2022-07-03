@@ -1,0 +1,10 @@
+baseURL = 'https://www.mersh.com/'
+languageCode = 'en-us'
+title = "Garrett Howard"
+
+[author]
+    name = "Garrett Howard"
+    email = "garrett@mersh.com"
+
+[params]
+    sourceCode = "https://github.com/garrhow/website"
