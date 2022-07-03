@@ -1,11 +1,11 @@
 .markdown-body {
 	line-height: 1.5;
-	padding: 1em 0 !important;
+	padding: 2em !important;
 	word-wrap: break-word;
 }
 
 .markdown-body>*:first-child {
-	margin-top: 0 !important;
+	margin-top: 0em !important;
 }
 
 .markdown-body p, main blockquote, main ul, main ol, main dl, main table, main pre, main details {
